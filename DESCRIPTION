@@ -1,0 +1,21 @@
+Package: NGSproj.data
+Type: Package
+Version: 0.0.1
+Date: 2022-02-10 13:06:54 CST
+Title: Xiaobei's collected datasets for NGS projects
+Description: Xiaobei's collected datasets for NGS projects
+License: GPL (>=2)
+LazyLoad: TRUE
+NeedsCompilation: no
+URL: https://github.com/xiaobeizhao/NGSproj.data
+Repository: CRAN
+Depends: R (>= 3.2.0)
+Imports: methods
+Collate: 'NGSproj.data-package.R' 'data.R'
+Author: Xiaobei Zhao
+Authors@R: c(
+    person("Xiaobei", "Zhao", email="xiaobeizhao.work@gmail.com",
+    role=c("aut", "cre", "cph"))
+    )
+Maintainer: Xiaobei Zhao <xiaobeizhao.work@gmail.com>
+RoxygenNote: 7.1.2
